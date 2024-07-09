@@ -72,7 +72,8 @@ public class BaseClass {
 		}
 		
 		driver.manage().window().maximize();
-		driver.get(getObject(env));          
+		driver.get(getObject(env));      
+	     System.out.println("URL IS :"+env);
 	}
 	
 	
