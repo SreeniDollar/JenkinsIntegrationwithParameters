@@ -32,7 +32,7 @@
 				<version>2.18.1</version>
 				<configuration>
 					<systemPropertyVariables>
-						<browser>firefox</browser>
+						<browser>edge</browser>
 						<env>amazonqaurl</env>
 						<Team>High5</Team>
 					</systemPropertyVariables>

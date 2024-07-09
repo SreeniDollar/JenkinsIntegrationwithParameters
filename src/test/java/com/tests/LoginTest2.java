@@ -18,6 +18,7 @@ public class LoginTest2 extends BaseClass {
 	public void loginuser2(String Team) throws IOException, InterruptedException {
 		HomePage homepage = new HomePage(driver);
 		LoginPage loginpage=new LoginPage(driver);
+		System.out.println("My Team name is : "+Team);
 		homepage.clicksignin();
 		Reporter.log("clicked signin", true);
 	    loginpage.enteremail(getObject("emailid"));
@@ -27,7 +28,6 @@ public class LoginTest2 extends BaseClass {
 	    loginpage.clicklogin();
 	    Thread.sleep(5000);
 	    System.out.println("Logged IN successful to amazon");
-	    System.out.println("My Team name is : "+Team);
 	    driver.close();
 	}
 
